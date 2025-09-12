@@ -143,12 +143,6 @@ public class TelaLogin extends javax.swing.JFrame {
         jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel2.setText("Senha");
 
-        jTxtSenha.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTxtSenhaActionPerformed(evt);
-            }
-        });
-
         jBtnLogin.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jBtnLogin.setText("Entrar");
         jBtnLogin.addActionListener(new java.awt.event.ActionListener() {
@@ -162,9 +156,10 @@ public class TelaLogin extends javax.swing.JFrame {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(34, 34, 34)
+                .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(layout.createSequentialGroup()
+                        .addGap(16, 16, 16)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addComponent(jLabel2)
                             .addComponent(jLabel1))
@@ -217,14 +212,8 @@ public class TelaLogin extends javax.swing.JFrame {
             
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, "erro");
-            
-            
         }
     }//GEN-LAST:event_jBtnLoginActionPerformed
-
-    private void jTxtSenhaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTxtSenhaActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jTxtSenhaActionPerformed
 
     /**
      * @param args the command line arguments
@@ -263,8 +252,4 @@ public class TelaLogin extends javax.swing.JFrame {
     private javax.swing.JPasswordField jTxtSenha;
     private javax.swing.JTextField jTxtUsario;
     // End of variables declaration//GEN-END:variables
-
-    public void setVisable(boolean b) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
 }
